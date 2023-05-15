@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+section.menu {
+    max-width: 1330px;
+    margin: auto;
+}
+
+.underline {
+    background-color: #0d6efd;
+    height: 3px;
+    width: 100%;
+}
+
+.menu li:first-child {
+    margin-left: 40px;
+}
+
+
+section.main {
+    background-image: url(../images/assets-cached.jpg);
+    background-size: cover;
+    height: 700px;
+
+}
+.container {
+    display: flex;
+    max-width: 1330px;
+}
+.underline-main {
+    background-color: #0d6efd;
+    height: 3px;
+    width: 350px;
+    margin: 10px 0 20px 0;
+}
+.chamado-main {
+    padding-top: 12%;
+}
+.chamado-main p {
+    color: rgb(255, 253, 253);
+    font-size: 18px;
+}
+
+.chamado-main h2 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.chamado-main h1 {
+    color: rgb(255, 255, 255);
+    font-size: 33px;
+}
+.btn-sobre {
+    color: white;
+    padding: 12px 23px;
+    background-color: #0d6efd;
+    border-radius: 14px;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.5s;
+
+}
+
+.btn-sobre:hover {
+    background-color: #0954c5;
+    color: white;
+}
+.main-image img {
+    margin-left: 190px;
+    padding-top: 5%;
+}
