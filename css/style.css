@@ -19,12 +19,15 @@ section.menu {
     margin-left: 40px;
 }
 
-
-section.main {
+body {
     background-image: url(../images/assets-cached.jpg);
     background-size: cover;
-    height: 700px;
-
+}
+.nav-item a {
+    color: white;
+}
+.nav-item a:hover {
+    color: rgb(168, 165, 165);
 }
 .container {
     display: flex;
@@ -66,10 +69,16 @@ section.main {
 }
 
 .btn-sobre:hover {
-    background-color: #0954c5;
-    color: white;
+    background-color: #0646a6;
+    color: rgb(168, 165, 165);
 }
 .main-image img {
     margin-left: 190px;
     padding-top: 5%;
+}
+
+#rodape {    
+    position:absolute;
+    bottom:0; 
+    width: 100%;
 }
