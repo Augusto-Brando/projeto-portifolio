@@ -24,6 +24,7 @@ section.menu {
 body {
     background-image: url(../images/assets-cached.jpg);
     background-size: cover;
+    height: 100%;
 }
 .nav-item a {
     color: white;
@@ -109,5 +110,50 @@ body {
     padding-top: 42%;
     margin-left: 60px;
 }
+.underline-about {
+    background-color: #0d6efd;
+    height: 3px;
+    width: 350px;
+    margin: 10px 0 20px 0;
+}
 
 /* FORMAÇAO */
+.formacao-details:first-child {
+    margin-right: 45%;
+
+
+}
+.formacao-details h1  {
+    color: white;
+    margin-top: 150px;
+}
+.formacao-details li {
+    color: rgb(218, 214, 214);
+    margin-top: 20px;
+    font-size: 22px;
+}
+.formacao-details p {
+    color: rgb(218, 214, 214);
+    margin-top: 20px;
+    font-size: 22px;
+}
+.underline-details { 
+    background-color: #0d6efd;
+    height: 3px;
+    width: 250px;
+}
+
+/* CONTATO */
+
+.chamado-contato h1 {
+    color: white;
+    font-size: 130px;
+    margin-top: 100px;
+}
+
+.underline-contato {
+    background-color: #0d6efd;
+    height: 4px;
+    width: 600px;
+    margin: 10px 0 20px 0;
+}
