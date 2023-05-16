@@ -4,6 +4,8 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* HOME */
+
 section.menu {
     max-width: 1330px;
     margin: auto;
@@ -65,7 +67,10 @@ body {
     cursor: pointer;
     margin-top: 10px;
     transition: 0.5s;
-
+}
+.btn-sobre a {
+    text-decoration: none;
+    color: white;
 }
 
 .btn-sobre:hover {
@@ -82,3 +87,27 @@ body {
     bottom:0; 
     width: 100%;
 }
+
+#navbarText .active {
+    color: rgb(168, 165, 165);
+}
+
+/* ABOUT */
+
+.about-text {
+    padding-top: 12.5%;
+    color: rgb(218, 214, 214);
+    font-size: 20px;
+    line-height: 33px;
+}
+.about-text h1 {
+    color: rgb(255, 255, 255);
+}
+
+.about-image img {
+    width: 450px;
+    padding-top: 42%;
+    margin-left: 60px;
+}
+
+/* FORMAÇAO */
